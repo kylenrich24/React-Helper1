@@ -6,7 +6,7 @@
 <h2>🌀 JSX</h2>
 ✏️ &nbsp; javascript version of html, simulates the real DOM<br>
 ✏️ &nbsp; combination of native elements (ie <h1> ) and our own components (ie <CustomButton /> ) <br>
-✏️ &nbsp; we can put javascript expression in it by using {} <br>
+✏️ &nbsp; we can put javascript expression in it by using `{}` <br>
 
 ```jsx
 // this is not html
