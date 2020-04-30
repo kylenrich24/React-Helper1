@@ -6,11 +6,12 @@
 <h2>🌀 JSX</h2>
 ✏️ &nbsp; javascript version of html, simulates the real DOM<br>
 ✏️ &nbsp; combination of native elements (ie h1 ) and our own components (ie <CustomButton /> ) <br>
-✏️ &nbsp; we can put javascript expression in it by using `{}` <br>
+✏️ &nbsp; we can put javascript expression in it by using `{ }` <br><br>
 
 ```jsx
 // this is not html
 // this is js
 <h1 className="blue">Hello</h1> //notice className, we use className in contrast to class in HTML; class is reserved in js 
 ```
+<br>
 * Babel is also the one responsible for converting this to html. babeljs.io
