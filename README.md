@@ -5,7 +5,14 @@
 
 <h2>🌀 JSX</h2>
 ✏️ &nbsp; javascript version of html, simulates the real DOM<br>
-✏️ &nbsp; combination of native elements (ie <code><h1></code> ) and our own components (ie </code><CustomButton /></code> ) <br>
+✏️ &nbsp; combination of html native elements and our own components<br>
+
+```jsx
+<div>   // html element
+  <Profile />   // react component
+</div>
+```
+
 ✏️ &nbsp; we can put javascript expression in it by using `{ }` <br><br>
 
 ```jsx
