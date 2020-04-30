@@ -10,17 +10,13 @@
 &nbsp;✏️ &nbsp; combination of html native elements and our own components<br>
 
 ```jsx
-<div>   // html element
+<div className="blue">   // html element; notice we use className and not class; class is reserved in js
   <Profile />   // react component
 </div>
 ```
 
 &nbsp;✏️ &nbsp; we can put javascript expression in it by using `{ }` <br><br>
 
-```jsx
-// this is not html
-// this is js
-<h1 className="blue">Hello</h1> //notice className, we use className in contrast to class in HTML; class is reserved in js 
-```
+
 <br>
 * Babel is also the one responsible for converting this to html. https://babeljs.io/
