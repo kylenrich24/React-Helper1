@@ -6,8 +6,8 @@
 <h2>🌀 JSX</h2>
 <br>
 <br>
-&nbsp✏️ &nbsp; javascript version of html, simulates the real DOM<br>
-&nbsp✏️ &nbsp; combination of html native elements and our own components<br>
+&nbsp;✏️ &nbsp; javascript version of html, simulates the real DOM<br>
+&nbsp;✏️ &nbsp; combination of html native elements and our own components<br>
 
 ```jsx
 <div>   // html element
@@ -15,7 +15,7 @@
 </div>
 ```
 
-&nbsp✏️ &nbsp; we can put javascript expression in it by using `{ }` <br><br>
+&nbsp;✏️ &nbsp; we can put javascript expression in it by using `{ }` <br><br>
 
 ```jsx
 // this is not html
