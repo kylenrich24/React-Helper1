@@ -15,8 +15,29 @@
 </div>
 ```
 
-&nbsp;✏️ &nbsp; we can put javascript expression in it by using `{ }` <br><br>
-
-
 <br>
 * Babel is also the one responsible for converting this to html. https://babeljs.io/
+
+<br>
+<h3>Inline Styling</h3>
+<br>
+
+```jsx
+<div style={{ backgroundColor: 'red' }}> // { js variable { js object; camelCase; 
+  Hello There
+</div>
+```
+<br>
+<br>
+
+<h3>Referencing JS in JSX</h3>
+<br>
+We can put javascript expression in JSX by using `{ }` <br>
+
+```jsx
+const buttonText = "Click Me";
+
+<button>
+  {buttonText}
+</button>
+```
