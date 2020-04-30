@@ -32,12 +32,23 @@
 
 <h3>Referencing JS in JSX</h3>
 <br>
-We can put javascript expression in JSX by using `{ }` <br>
+We can put javascript expression in JSX by using `{ }` <br><br>
 
 ```jsx
 const buttonText = "Click Me";
 
 <button>
   {buttonText}
+</button>
+```
+<br>
+
+```jsx
+const getButtonText = () => {
+  return 'Click on me!";
+}
+
+<button>
+  {getButtonText()}
 </button>
 ```
