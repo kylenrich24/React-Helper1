@@ -51,4 +51,11 @@ const getButtonText = () => {
 <button>
   {getButtonText()}
 </button>
+
+// we can't reference an object though
+const buttonText = {text: 'Click Me` }
+
+<button>
+  {buttonText} // this is a bug
+</button>
 ```
