@@ -1,3 +1,16 @@
 # 🌀 React-Helper1 🌀
 
 <img src="https://sunscrapers.com/blog/wp-content/uploads/2018/11/1__DOHv30w-0eI-Ysz5U47Yg.png" height=500 width=900>
+
+
+<h2>🌀 JSX</h2>
+✏️ &nbsp; javascript version of html, simulates the real DOM<br>
+✏️ &nbsp; combination of native elements (ie <h1> ) and our own components (ie <CustomButton /> ) <br>
+✏️ &nbsp; we can put javascript expression in it by using {} <br>
+
+```jsx
+// this is not html
+// this is js
+<h1 className="blue">Hello</h1> //notice className, we use className in contrast to class in HTML; class is reserved in js 
+```
+* Babel is also the one responsible for converting this to html. babeljs.io
